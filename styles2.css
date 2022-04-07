@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800&display=swap');
+
+* {
+    font-family: 'Montserrat';
+    color:rgb(255, 255, 255);
+}
+
+body,h1,h2 {
+    margin:0px;
+    padding:0px;
+}
+
+
+/* 헤더 시작 */
+header{
+    height: 63px;
+    background-color: rgb(20, 55, 113);
+    
+}
+
+.log{
+    height: 40px;
+    width: 100px;
+    float: right;
+    background-color: rgb(67, 116, 207);
+    margin-right: 145px;
+    margin-top: 12px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sign{
+    height: 40px;
+    width: 130px;
+    float: right;
+    background-color: rgb(67, 116, 207);
+    margin-right: 7px;
+    margin-top: 12px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.lang-select{
+    float: right;
+    margin-right: 12px;
+    margin-top: 12px;
+    background-color: rgb(6, 25, 54);
+    text-align: center;
+}
+/* 헤더 끝 */
+
+/* 인트로 바 시작 */
+.intro-bar{
+    background-color: rgb(6, 25, 54);
+    height: 130px;
+    overflow: hidden
+}
+
+.home{
+    float: left;
+    padding-top: 35px;
+    padding-left: 150px;
+    font-size: 50px;
+}
+
+.search{
+    float: right;
+    padding-top: 18px;
+    padding-right: 90px;
+    font-size: 28px;
+}
+
+.info{
+    float: right;
+    padding-top: 13px;
+    padding-right: 90px;
+    font-size: 30px;
+}
+
+.degree{
+    float: right;
+    padding-top: 18px;
+    padding-right: 90px;
+    font-size: 28px;
+}
+
+.internation{
+    float: right;
+    padding-top: 18px;
+    padding-right: 90px;
+    font-size: 28px;
+}
+
+.open{
+    float: right;
+    padding-top: 18px;
+    padding-right: 90px;
+    font-size: 28px;
+}
+
+.major{
+    float: right;
+    padding-top: 18px;
+    padding-right: 90px;
+    font-size: 28px;
+}
+/* 인트로 바 끝 */
+
+
+/* 이미지 시작 */
+.img-title{
+    text-align: center;
+    display: table;
+    border: 1px solid #cecece;
+    width: 280px;
+    height: 250px;
+}
+.image-box{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.image-ad{
+    max-width: 1900px;
+    max-height: 1200px;
+}
+/* 이미지 끝 */
+
+/* 공지사항 시작 */
+.first{
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid white;
+    flex:1;
+    width: 48%;
+    box-sizing: border-box;
+}
+.info-title{
+    color: black;
+    font-size: 30px;
+    margin-left: 150px;
+}
+
+.info-text{
+    color: black;
+    margin-left: 235px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+
+li{
+    float: left;
+    color: black;
+    font-size: 18px;
+    margin-left: 150px;
+    line-height: 30px;
+}
+
+.upload-date {
+    font-size: 15px;
+    float: right;
+    margin-left: auto;
+    line-height: 10px;
+    color:#999;
+}
+
+.list{
+    overflow:hidden;
+    margin-left: 20px;
+}
+/* 공지사항 끝 */
+
+/* 홍보영상 시작 */
+.second{
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid white;
+    flex:1;
+    margin: 0px 1%;
+    width:48%;
+    box-sizing: border-box;
+}
+
+.info-title2{
+    float: left;
+    color: black;
+    font-size: 30px;
+    padding-left: 100px;
+}
+.thumb{
+    float: left;
+    padding-left: 100px;
+    padding-top: 30px;
+}
+
+.double-zone{
+    overflow: hidden;
+}
+/* 홍보영상 끝 */
+
+/* 검색파트 시작 */
+.yellow-box{
+    background-color: rgb(236, 204, 97);
+    width: 1500px;
+    height: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.Search-title{
+    color: black;
+    float: left;
+    padding-left: 70px;
+    padding-top: 30px;
+    font-size: 35px;
+    padding-right: 20px;
+}
+
+.engine{
+    float: left;
+    margin-top: 50px;
+    font-size: 35px;
+    color: black;
+}
+
+.submit{
+    color: white;
+    background-color: black;
+    margin-right: 100px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.submit2{
+    color: black;
+    background-color: rgb(236, 204, 97);
+    margin-right: 50px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.yellow-box{
+    overflow: hidden;
+}
+
+/* 검색파트 끝 */
+
+/* footer 시작 */
+.footer{
+    margin-top: 20px;
+}
+.footer-title{
+    float: left;
+    font-size: 30px;
+    padding-top: 5px;
+    padding-left: 150px;
+    font-weight: bold;
+}
+
+.footer-sub{
+    float: right;
+    font-size: 30px;
+    padding-top: 5px;
+    padding-right: 150px;
+    font-weight: bold;
+}
+/* footer 끝 */
